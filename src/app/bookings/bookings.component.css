@@ -1,0 +1,119 @@
+/* body
+  {
+    background-color: rgba(102, 195, 209, 0.266);
+  }
+
+.heading{
+    text-align: center;
+    padding:.5rem 0;
+
+  }
+
+  .heading span{
+    font-size: 2rem;
+    background:rgba(8, 0, 255, 0.414);
+    color:var(--violet);
+    border-radius: .5rem;
+    padding:.1rem 1rem;
+  }
+   */
+  
+  
+   /* body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+   
+  } */
+
+  .heading{
+    text-align: center;
+    padding:1rem 0;
+  }
+
+  .heading span{
+    font-size: 2rem;
+    background:rgba(0, 17, 255, 0.216);
+    color:var(--blue);
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+  }
+  body
+  {
+    background: rgba(0, 0, 255, 0.226);
+    height: 89.8vh;
+    
+  }
+
+#tag
+{
+  width: 500px;
+  height: 100px;
+}
+
+
+  /* form
+  {
+    background-color: rgba(255, 255, 255, 0.26);
+  } */
+
+  div.elem-group {
+    margin: 1px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 0px;
+    font-size: 1.2em;
+    color: rgb(8, 0, 255);
+    display: inline;
+    /* background-color: rgba(245, 245, 245, 0.1); */
+    /* text-shadow: 1px 1px rgb(71, 0, 0); */
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+ 
+  
+  
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-left: 27vh;
+    padding: 0 30px 0 30px;
+  }
+  
+  button:hover {
+    border: 2px solid rgb(205, 240, 9);
+  }

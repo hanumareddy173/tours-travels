@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+  <!-- <h1>
+    hanuma reddy
+  </h1> -->
+  <!-- <h2 style="text-align: center;"><span style="color: orange;">V</span>illas <span style="color: red;">M</span>ust <span style="color: blue;">V</span>isit In <span style="color: violet;">H</span>oliday <span style="color: green;">T</span>rip</h2> -->
+   <h3 id="rainbow">TOURS<i class="fa-solid fa-earth-asia" style="color: blue;"></i> <em id="em">TRAVELS</em></h3>
+
+  <nav class="navbar navbar-expand-sm bg-warning navbar-success">
+    <!-- Brand -->
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav" >
+        <li class="nav-item">
+          <a class="nav-link" id="col" routerLink="/home" style="color:purple"><i class="fa-solid fa-house-user"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="col" routerLink="/bookings" style="color: purple;"><i class="fa-solid fa-book"></i> Bookings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="col" routerLink="/packages"  style="color: purple;"><i class="fa-solid fa-cube"></i> Packages</a>
+          
+        </li>
+        <li class="nav-item">
+          <a routerLink="/services" id="col" class="nav-link" style="color:purple;"><i class="fa-solid fa-hand-holding-heart"></i> Services</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/gallery" id="col" class="nav-link" style="color: purple;"><i class="fa-regular fa-images"></i> Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/review" id="col" class="nav-link" style="color: purple;"><i class="fa-solid fa-star"></i> Review</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/contact" id="col" class="nav-link" style="color:purple;"><i class="fa-regular fa-address-book"></i> Contact</a>
+        </li>
+       </ul>
+       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a routerLink="/login" class="nav-link">
+            <form>
+              <button class="btn btn-success">Login</button>
+        
+    <!-- <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="button1">Login</button> -->
+           </form>
+          </a>
+        </li>
+        <li class="nav-item">
+        <a routerLink="/register" class="nav-link">
+          <form >
+            <button class="btn btn-danger">Register</button>
+          </form>
+        </a>
+      </li>
+        </ul>
+       </div>
+      </nav>
+<!-- <app-home></app-home> -->
+
+</body>
+
+</html>
+
+
+
+
+<router-outlet></router-outlet>
+
+<app-footer ></app-footer>

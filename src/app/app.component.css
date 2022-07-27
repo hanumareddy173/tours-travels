@@ -1,0 +1,28 @@
+/* #button1 {
+    background-color: green;
+    color: white;
+    padding: 7px;
+    margin: 0px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  } */
+
+
+
+#rainbow
+{
+  background: linear-gradient(to left, orange,gold,rgb(251, 0, 255),green,yellow,cyan,red,green,black,blue,violet);
+  color: transparent;
+  background-clip: text ;
+  text-align: center;
+}
+
+
+#col:hover
+{
+  background-color: wheat;
+  text-decoration: none;
+  border-radius: 10px;
+}
